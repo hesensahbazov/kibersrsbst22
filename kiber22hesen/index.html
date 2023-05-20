@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;">
+    
+<p>Həsən Şahbazov</p>
+
+<h1>Assetfinder Toolu Nədir ? </h1>
+<p>Assetfinder standart olaraq Kali Linux-a daxil olan xüsusi bir alət deyil. Bununla belə, "assetfinder" Tomnomnom tərəfindən hazırlanmış və təhlükəsizlik mütəxəssisləri və nüfuzetmə testçiləri tərəfindən geniş istifadə olunan məşhur açıq mənbəli kəşfiyyat vasitəsidir. O, Go proqramlaşdırma dilində yazılmışdır və hədəf domenin subdomenlərini və əlaqəli aktivlərini aşkar etməyə kömək edir.Veb əsaslı bir tətbiqi sınaqdan keçirərkən hədəfimizə yaxınlaşmaq çox vacibdir. Tutaq ki, hədəfin əhatə dairəsi böyükdür, onda hər bir tədqiqatçı əsas domeni sınaqdan keçirməkdənsə, əlaqəli subdomenlərlə getməlidir, çünki bəzən bu subdomenlər XSS, SQL, CSRF və s. kimi bir çox yeni boşluqlara qarşı həssas ola bilər. hədəfinizin əlaqəli subdomenləri üçün işimizi avtomatlaşdıracaq və subdomenlərin siyahısını qaytaracaq güclü və potensial skriptə sahib olmalıyıq. Beləliklə, assetfinder hədəfimizin subdomenlərini əldə etməyə kömək edəcək bir vasitədir. Assetfinder, hədəf domenimizin potensial subdomenlərini əldə etmək üçün istifadə edilən Golanq dil əsaslı alətdir.</p>
+
+<h1>Assetfinder Toolu Necə istifadə Olunur? </h1>
+<h3>İlk öncə  Go Quraşdırın</h3>
+
+<p>Əgər Go artıq Kali Linux sisteminizdə quraşdırılmayıbsa, onu quraşdırmalısınız. Rəsmi Go paketini Go veb saytından (https://golang.org/dl/) yükləyə və quraşdırma təlimatlarına əməl edə bilərsiniz.</p>
+<img src="./img/asset1.png" alt="">
+<h2>Go-nu yüklədikfən sonra aşağıdakı commandları yerinə yetirin.</h2>
+<img src="./img/asset2.png" alt="">
+<br>
+<img src="./img/asset3a.png" alt="">
+<h1>Assetfinder-i işə salın</h1>
+<h3>Quraşdırma tamamlandıqdan sonra aşağıdakı əmri yerinə yetirərək assetfinder-i işə sala bilərsiniz:</h3>
+<img src="./img/assset4.png" alt="">
+<br>
+<h4>Bu misalda hədəf domenimiz tesla.com-dur və yalnız daxil edilmiş domenin alt domenlərini tapmaq mənasına malik olan –yalnız subs teqi verilir. Aşağıdakı skrinşotda biz yalnız tesla.com domeni ilə –alternativləri keçdik, beləliklə, assetfinder yalnız tesla.com-un alt domenlərini əldə edəcək. Heç bir əlaqəli domenlər əldə edilməyəcək.</h4>
+<img src="./img/Example4min.png" alt="">
+
+<br>
+<h4>Bu misalda, hədəf domenimiz uber.com-dur və yalnız daxil edilmiş domenin alt domenlərini tapmaq mənasını daşıyan –yalnız subs-on teqi təqdim olunur. Aşağıdakı skrinşotda biz yalnız uber.com domeni ilə –sub-on-dan keçdik, beləliklə, assetfinder yalnız uber.com-un alt domenlərini əldə edəcək. Heç bir əlaqəli domenlər əldə edilməyəcək.</h4>
+<img src="./img/Example3min.png" alt="">
+
+<h1>Diqqətiniz üçün təşəkkülər</h1>
+</body>
+</html>
